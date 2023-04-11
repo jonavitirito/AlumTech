@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(212, 212, 212);
+    min-height: 10vh;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    width: 35vw;
+    justify-content: space-evenly;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+p {
+   margin: 25px;
+padding-bottom: 30px;
+
+}
+
+
+.articulo-1 img {
+    height: 700px;
+    
+
+
+}
+
+.articulo-2 img {
+    height: 700px;
+   
+
+
+}
+
+
+.articulo-3 img {
+    height: 700px;
+   
+}
+
+
+.producto-1 img {
+    height: 500px;
+    
+}
+
+
+.producto-2 img {
+    height: 500px;
+    
+}
+
+
+
+.producto-3 img {
+    
+    height: 500px;
+}
+
+
+.producto-4 img {
+    height: 500px;
+    
+}
+
+
+#main-distribucion img {
+    height: 500px;
+}
+
+.colores-simil-madera img {
+    height: 450px;
+}
+
+.colores-pintura img {
+    width: 700px;
+}
+
+.colores-microtexturado img {
+    height: 450px;
+}
+
+.aluar img {
+    height: 450px;
+}
+
+h1 {
+    color: gray;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main-distribucion p {
+    background-color: darkolivegreen;
+}
+.footer {
+    display: flex;
+    background-color: rgb(92, 92, 92) ;
+    color: rgb(168, 168, 168);
+    justify-content: center;
+    min-height: 10vh;
+    
+}
+.redes {
+    color: rgb(168, 168, 168);
+    display: flex;
+    justify-content: space-around;
+    
+}
+.articulos {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main {
+   
+    min-height: 80vh;
+}
