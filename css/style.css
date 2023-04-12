@@ -10,92 +10,91 @@
     background-color: rgb(212, 212, 212);
     min-height: 10vh;
     flex-wrap: wrap;
-    min-width: 100vw;
+    max-width: 100vw;
 }
+
 .nav ul {
     display: flex;
     list-style: none;
     width: 40vw;
-    min-width: 600px;
     justify-content: space-evenly;
-   
+
 }
+
 .nav a {
     text-decoration: none;
     color: white;
 }
+
 .main {
     min-height: 80vh;
-    
+    max-width: 100vw;
+
 }
 
-.main div{
-    background: linear-gradient(rgba( 5,7,12,0.75) , rgba(5,7,12,0.75)), url(../recursos/img/bannerdef.png) center center;
+.main div {
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../recursos/img/bannerdef.png) center center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-direction: column;
- text-align: center;
+    text-align: center;
     height: 600px;
-    width: 100vw;
+    max-width: 100vw;
     color: white;
-    flex-wrap:wrap ;
-    
+    flex-wrap: wrap;
+
 }
+
 .articulos {
-    background-color: black;
+    background-color: rgb(61, 80, 61);
     display: flex;
     justify-content: space-around;
-flex-wrap:wrap ;
+    flex-wrap: wrap;
+    max-width: 100vw;
+
 }
 
 
 
 
 .articulo-1 img {
-    height: 400px
-    
-
-
+    height: 250px
 }
 
 .articulo-2 img {
-    height: 400px
-   
-
-
+    height: 250px
 }
 
 
 .articulo-3 img {
-    height: 400px
-   
+    height: 250px
 }
 
 
 .producto-1 img {
     height: 500px;
-    
+
 }
 
 
 .producto-2 img {
     height: 500px;
-    
+
 }
 
 
 
 .producto-3 img {
-    
+
     height: 500px;
 }
 
 
 .producto-4 img {
     height: 500px;
-    
+
 }
 
 
@@ -123,31 +122,34 @@ flex-wrap:wrap ;
 #main-distribucion p {
     background-color: darkolivegreen;
 }
+
 .footer {
     display: flex;
-    background-color: rgb(92, 92, 92) ;
+    background-color: rgb(92, 92, 92);
     color: rgb(168, 168, 168);
     justify-content: center;
     min-height: 10vh;
-    min-width: 100vw;
+    max-width: 100vw;
     flex-wrap: wrap;
-    
+
 }
+
 /* .redes {
     color: rgb(168, 168, 168);
     display: flex;
     justify-content: space-around;
     
 } */
- /* mobile last */
+/* mobile last */
 @media (max-width: 600px) {
-    .header {justify-content: center;
+    .header {
+        justify-content: center;
         overflow: hidden;
     }
+
     .main {
-        width: 100vw;
-        overflow: hidden;
+    }
+    .articulos{
+    
     }
 }
-
-
