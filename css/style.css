@@ -25,6 +25,7 @@
     color: white;
 }
 .main {
+    display: flex;
    flex-wrap: wrap;
     min-height: 80vh;
     
@@ -47,6 +48,7 @@
     background-color: black;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 
@@ -140,7 +142,11 @@
 } */
  /* mobile last */
 @media (max-width: 799px) {
-    .header {justify-content: center;}
+    .header {justify-content: center;
+    }
+    .main {
+        min-width: 100vw;
+    }
 }
 
 
