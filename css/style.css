@@ -3,15 +3,11 @@
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
 }
+.header{
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-items: center;
     background-color: rgb(212, 212, 212);
-    min-height: 10vh;
-    max-width: 100vw;
+    /* min-height: 10vh;
+    max-width: 100vw; */
     color: white;
     text-decoration: none;
 }
@@ -20,6 +16,12 @@
 .navbar-nav a{
     color: white;
    font-size:20px;
+}
+.navbar-nav {
+    align-items: center;
+}
+.jc-c {
+    justify-content: flex-end;
 }
 
 
@@ -361,10 +363,11 @@ color: rgb(162, 162, 162);
 
 
 }
-.container-fluid{
+
+/* .container-fluid{
     
     justify-content: flex-end !important;
-}
+} */
     
 }
     
