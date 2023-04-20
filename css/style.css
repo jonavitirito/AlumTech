@@ -104,6 +104,9 @@ width:max-content;
     display: flex;
     flex-direction: column;
 }
+.formulario input {
+    margin: 10px;
+}
 
 .comentario {
     height: 150px;
