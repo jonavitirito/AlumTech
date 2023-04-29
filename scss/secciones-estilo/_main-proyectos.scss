@@ -1,0 +1,62 @@
+.main-proyecto{
+    background-image: linear-gradient(rgba( 5, 7, 12,0.75), rgba( 5, 7, 12,0.75));
+    h1{
+        font-size: xx-large;
+        text-align: center;
+        color: rgb(162, 162, 162);
+    }
+}
+.proyectos{
+    color: rgb(162, 162, 162);
+    background-image: linear-gradient(rgba( 5, 7, 12,0.75), rgba( 5, 7, 12,0.75));
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "edif-tx edif"
+    "inst inst-tx";
+    align-items: center;
+    justify-items: center;
+    max-width: 100vw;
+    img{
+        width: 800px;
+    padding: 50px;
+    }
+}
+.inst{
+    grid-area: inst;
+}
+.edif{
+    grid-area: edif;
+}
+.edif-tx{
+    text-align: center;
+    max-width: 600px;
+    padding: 40px;
+    grid-area: edif-tx;
+    h2{
+        background-color: beige;
+    font-size: xx-large;
+    text-decoration:dashed;
+    padding: 15px;
+    }
+    p{
+        font-size: larger;
+    }
+}
+.inst-tx {
+    text-align: center;
+    grid-area: inst-tx;
+    max-width: 600px;
+    padding: 40px;
+
+    h2{
+        background-color: beige;
+    font-size: xx-large;
+    text-decoration:dashed;
+    padding: 15px;
+    }
+    p{
+        font-size: larger;
+    }
+}
