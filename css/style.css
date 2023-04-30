@@ -26,9 +26,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     color: #a2a2a2;
-    padding: 50px; }
+    padding: 50px;
+    font-size: 17px; }
     .main .articulos img {
-      width: 250px;
+      width: 300px;
       padding: 15px;
       transition: 0.1s ease-out; }
     .main .articulos img:hover {
