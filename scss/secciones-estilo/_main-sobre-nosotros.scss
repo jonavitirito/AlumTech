@@ -1,29 +1,38 @@
-.main-sobre-nosotros{
+.main-sobre-nosotros {
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 80vh;
     max-width: 100vw;
-    background-color: rgba(5, 7, 12, 0.75);
+    background-color: $fondo;
     color: rgb(162, 162, 162);
-}
-.sn { text-align: center;
-    max-width: 600px;
-}
-.formulario {
-    display: flex;
-    flex-direction: column;
-    input{
-        margin: 10px;
+
+    .sn {
+        text-align: center;
+        max-width: 600px;
+
+        .formulario {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                margin: 10px;
+            }
+        }
+
+        .comentario {
+            height: 150px;
+        }
+
+        
+
+        .selecciones {
+            select {
+                margin: 20px;
+            }
+        }
     }
-}
-.comentario {
-    height: 150px;
-}
-.map{
-    width: 600px;
-}
-.selecciones{ select{
-   margin: 20px;
-}
+   .map {
+            width: 600px;
+        } 
 }

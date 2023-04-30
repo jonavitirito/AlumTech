@@ -1,44 +1,51 @@
-.presentacion{
-    grid-area: h1;
-}
-.main-cyc{
+.main-cyc {
     text-align: center;
     display: grid;
-    grid-template-columns:25% 25% 25% 25% ;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 15% 85%;
-    grid-template-areas: 
-    "h1 h1 h1 h1"
-    "pintura madera micro aluar"
-    
+    grid-template-areas:
+        "h1 h1 h1 h1"
+        "pintura madera micro aluar"
+
 
     ;
     min-height: 80vh;
     min-width: 100vw;
     color: rgb(162, 162, 162);
-    background-image: linear-gradient(rgba( 5, 7, 12,0.75), rgba( 5, 7, 12,0.75));
-    img{
-        max-width: 400px;
-    height: 350px;
-    }
-}
-.colores-pintura{  background-color: rgb(59, 61, 60);
-    padding: 40px;
-    grid-area: pintura;
-}
-.colores-simil-madera{
-    background-color: rgb(59, 61, 60);
-    padding: 40px;
-    grid: madera;
-}
-.colores-microtexturado {
-    background-color: rgb(59, 61, 60);
-  grid-area: micro;
+    background-image: linear-gradient(($fondo, $fondo));
 
-  padding: 40px;
-}
-.aluar {
-    background-color: rgb(59, 61, 60);
-    padding: 40px;
-   
-    grid-area: aluar;
+    img {
+        max-width: 400px;
+        height: 350px;
+    }
+
+    .presentacion {
+        grid-area: h1;
+    }
+
+    .colores-pintura {
+        background-color: rgb(59, 61, 60);
+        padding: 40px;
+        grid-area: pintura;
+    }
+
+    .colores-simil-madera {
+        background-color: rgb(59, 61, 60);
+        padding: 40px;
+        grid-area: madera;
+    }
+
+    .colores-microtexturado {
+        background-color: rgb(59, 61, 60);
+        grid-area: micro;
+
+        padding: 40px;
+    }
+
+    .aluar {
+        background-color: rgb(59, 61, 60);
+        padding: 40px;
+
+        grid-area: aluar;
+    }
 }
