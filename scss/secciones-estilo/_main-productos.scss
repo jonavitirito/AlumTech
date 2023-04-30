@@ -5,10 +5,11 @@
     text-align: center;
     height: 100%;
     background-image: linear-gradient($fondo, $fondo);
-    color: rgb(162, 162, 162);
+    color: rgb(217, 217, 217);
 
     h1 {
         background-color: rgb(100, 100, 100);
+        color: rgb(217, 217, 217);
         padding: 30px;
     }
 
@@ -23,9 +24,9 @@
             grid-auto-flow: row;
             gap: 0% 0%;
             grid-template-areas:
-                "producto-1 textos-1"
-                "producto-2 textos-2 "
-                "producto-3 textos-3"
+                "textos-1 producto-1"
+                "producto-2 textos-2"
+                "textos-3 producto-3"
                 "producto-4 textos-4";
 
             img {
@@ -40,6 +41,7 @@
             }
 
             h2 {
+                color: rgb(79, 79, 79);
                 background-color: rgb(214, 214, 171);
                 max-width: 900px;
             }

@@ -11,7 +11,7 @@
     ;
     min-height: 80vh;
     min-width: 100vw;
-    color: rgb(162, 162, 162);
+    color: rgb(79, 79, 79);
     background-image: linear-gradient(($fondo, $fondo));
 
     img {
@@ -20,31 +20,41 @@
     }
 
     .presentacion {
+        color: rgb(217, 217, 217);
+        
         grid-area: h1;
     }
 
     .colores-pintura {
-        background-color: rgb(59, 61, 60);
+        height: 550px;
+        background-color: rgb(212, 212, 182);
         padding: 40px;
+        margin: 10px;
+        
         grid-area: pintura;
     }
 
     .colores-simil-madera {
-        background-color: rgb(59, 61, 60);
+            height: 550px;
+        background-color: rgb(212, 212, 182);
         padding: 40px;
+        margin: 10px;
         grid-area: madera;
     }
 
     .colores-microtexturado {
-        background-color: rgb(59, 61, 60);
+        height: 550px;
+        background-color: rgb(212, 212, 182);
         grid-area: micro;
-
+        margin: 10px;
         padding: 40px;
     }
 
     .aluar {
-        background-color: rgb(59, 61, 60);
+        height: 550px;
+        background-color: rgb(212, 212, 182);
         padding: 40px;
+        margin: 10px;
 
         grid-area: aluar;
     }
