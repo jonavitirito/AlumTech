@@ -34,12 +34,13 @@
             padding: 15px;
             transition: 0.1s ease-out;
 
+            &:hover {
+                scale: 1.1;
+                transition: 0.1s;
+            }
         }
 
-        img:hover {
-            scale: 1.1;
-            transition: 0.1s;
-        }
+
 
         div {
             display: flex;
