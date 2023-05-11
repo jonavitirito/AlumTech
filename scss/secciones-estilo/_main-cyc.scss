@@ -15,20 +15,20 @@
     background-image: linear-gradient(($fondo, $fondo));
 
     img {
-    max-width: 400px;
-        height: 350px;
+    max-width: 100%;
+    height: 50%;
+
     }
 
     .presentacion {
         color: rgb(217, 217, 217);
-        
         grid-area: h1;
     }
 
     .colores-pintura {
         
         background-color: rgb(42, 42, 42);
-        padding: 40px;
+        padding: 10px;
         margin: 10px;
         
         grid-area: pintura;
@@ -37,7 +37,7 @@
     .colores-simil-madera {
       
             background-color: rgb(42, 42, 42);
-        padding: 40px;
+            padding: 10px;
         margin: 10px;
         grid-area: madera;
     }
@@ -47,13 +47,13 @@
         background-color: rgb(42, 42, 42);
         grid-area: micro;
         margin: 10px;
-        padding: 40px;
+        padding: 10px;
     }
 
     .aluar {
        
         background-color: rgb(42, 42, 42);
-        padding: 40px;
+        padding: 10px;
         margin: 10px;
 
         grid-area: aluar;

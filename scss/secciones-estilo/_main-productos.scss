@@ -30,8 +30,8 @@
                 "producto-4 textos-4";
 
             img {
-                max-width: 800px;
-                padding: 25px;
+                max-width: 95%;
+               padding: 25px;
                 transition: 0.1s ease-out;
             }
 
@@ -41,6 +41,7 @@
             }
 
             h2 {
+                max-width: 5%;
                 color: rgb(79, 79, 79);
                 background-color: rgb(214, 214, 171);
                 max-width: 900px;
@@ -49,16 +50,16 @@
 
         .producto-1 {
             grid-area: producto-1;
-
         }
 
         .producto-2 {
             grid-area: producto-2;
-
+           
         }
 
         .producto-3 {
             grid-area: producto-3;
+            
         }
 
         .producto-4 {

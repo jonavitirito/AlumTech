@@ -29,22 +29,39 @@
     padding: 50px;
     font-size: 17px; }
     .main .articulos img {
-      width: 300px;
+      width: 350px;
       padding: 15px;
       transition: 0.1s ease-out; }
       .main .articulos img:hover {
         scale: 1.1;
         transition: 0.1s; }
-    .main .articulos div {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center; }
-      .main .articulos div p {
+    .main .articulos .t-herrero {
+      text-align: center;
+      flex-direction: column; }
+      .main .articulos .t-herrero p {
         width: 292px;
         padding-top: 15px; }
-      .main .articulos div h2 {
+      .main .articulos .t-herrero h2 {
+        background-color: beige;
+        padding: 12px;
+        width: max-content; }
+    .main .articulos .t-modena {
+      flex-direction: column;
+      align-items: center;
+      text-align: center; }
+      .main .articulos .t-modena p {
+        width: 292px;
+        padding-top: 15px; }
+      .main .articulos .t-modena h2 {
+        background-color: beige;
+        padding: 12px;
+        width: max-content; }
+    .main .articulos .t-a30 {
+      text-align: center; }
+      .main .articulos .t-a30 p {
+        width: 292px;
+        padding-top: 15px; }
+      .main .articulos .t-a30 h2 {
         background-color: beige;
         padding: 12px;
         width: max-content; }
@@ -132,13 +149,14 @@
     gap: 0% 0%;
     grid-template-areas: "textos-1 producto-1" "producto-2 textos-2" "textos-3 producto-3" "producto-4 textos-4"; }
     .main-productos .productos img {
-      max-width: 800px;
+      max-width: 95%;
       padding: 25px;
       transition: 0.1s ease-out; }
     .main-productos .productos img:hover {
       scale: 1.02;
       transition: 0.1s; }
     .main-productos .productos h2 {
+      max-width: 5%;
       color: #4f4f4f;
       background-color: #d6d6ab;
       max-width: 900px; }
@@ -222,29 +240,29 @@
   color: #bababa;
   background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)); }
   .main-cyc img {
-    max-width: 400px;
-    height: 350px; }
+    max-width: 100%;
+    height: 50%; }
   .main-cyc .presentacion {
     color: #d9d9d9;
     grid-area: h1; }
   .main-cyc .colores-pintura {
     background-color: #2a2a2a;
-    padding: 40px;
+    padding: 10px;
     margin: 10px;
     grid-area: pintura; }
   .main-cyc .colores-simil-madera {
     background-color: #2a2a2a;
-    padding: 40px;
+    padding: 10px;
     margin: 10px;
     grid-area: madera; }
   .main-cyc .colores-microtexturado {
     background-color: #2a2a2a;
     grid-area: micro;
     margin: 10px;
-    padding: 40px; }
+    padding: 10px; }
   .main-cyc .aluar {
     background-color: #2a2a2a;
-    padding: 40px;
+    padding: 10px;
     margin: 10px;
     grid-area: aluar; }
 
@@ -305,6 +323,7 @@
       align-items: center;
       padding: 5px; }
       .main-cyc .colores-simil-madera img {
+        height: 100%;
         width: 300px; }
     .main-cyc .colores-pintura {
       align-items: center;
