@@ -1,6 +1,6 @@
 .main-proyecto{
-    background-image: linear-gradient(($fondo, $fondo));
-    h1{
+    background-color: $fondo;
+    h1 { padding: 0;
         font-size: xx-large;
         text-align: center;
         color: rgb(217, 217, 217);
@@ -8,7 +8,7 @@
 
 .proyectos{
     color: rgb(162, 162, 162);
-    background-image: linear-gradient(($fondo, $fondo));
+    background-color: $fondo;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr;

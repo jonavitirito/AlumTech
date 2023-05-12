@@ -1,3 +1,8 @@
+
+h1{
+    padding-top: 40px;
+}
+
 .main-cyc {
     text-align: center;
     display: grid;
@@ -9,6 +14,7 @@
 
 
     ;
+    align-items: center;
     min-height: 80vh;
     min-width: 100%;
     color: rgb(186, 186, 186);
@@ -24,9 +30,13 @@
         color: rgb(217, 217, 217);
         grid-area: h1;
     }
+    p{
+        padding-top: 15px;
+    }
+   
 
     .colores-pintura {
-        
+        height: 500px;
         background-color: rgb(42, 42, 42);
         padding: 10px;
         margin: 10px;
@@ -35,7 +45,7 @@
     }
 
     .colores-simil-madera {
-      
+        height: 500px;
             background-color: rgb(42, 42, 42);
             padding: 10px;
         margin: 10px;
@@ -43,7 +53,7 @@
     }
 
     .colores-microtexturado {
-        
+        height: 500px;
         background-color: rgb(42, 42, 42);
         grid-area: micro;
         margin: 10px;
@@ -51,7 +61,7 @@
     }
 
     .aluar {
-       
+        height: 500px;
         background-color: rgb(42, 42, 42);
         padding: 10px;
         margin: 10px;
