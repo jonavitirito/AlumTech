@@ -44,9 +44,8 @@
         width: 292px;
         padding-top: 15px; }
       .main .articulos .t-herrero h2 {
-        background-color: beige;
-        padding: 12px;
-        width: max-content; }
+        padding: 5px;
+        background-color: beige; }
     .main .articulos .t-modena {
       justify-content: center;
       padding: 10px;
@@ -351,10 +350,10 @@ h1 {
     display: flex;
     flex-direction: column;
     max-width: 100vw; }
-    .main-sobre-nosotros .img img {
-      width: 325px; }
-    .main-sobre-nosotros .map {
-      width: 300px;
+    .main-sobre-nosotros .map-img .img img {
+      max-width: 80vw; }
+    .main-sobre-nosotros .map-img .map {
+      width: 100vw;
       padding-top: 30px;
       padding-bottom: 30px; }
     .main-sobre-nosotros .sn {
